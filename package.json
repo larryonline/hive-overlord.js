@@ -1,0 +1,27 @@
+{
+    "name": "hive-overlord.js",
+    "version": "0.1.0",
+    "description": "web scraping",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --compiler js:babel-core/register",
+        "build": "babel src -d lib"
+    },
+    "keywords": [
+        "web scraping"
+    ],
+    "author": "larry.zzn@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "chai": "^4.1.2",
+        "hive-crawler.js": "file:../crawler.js",
+        "hive-drone.js": "file:../drone.js",
+        "mocha": "^5.2.0"
+    },
+    "dependencies": {
+        "array-tools": "^2.0.9",
+        "validate.io": "^2.0.7"
+    }
+}
